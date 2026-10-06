@@ -1,0 +1,47 @@
+.env
+.env.publishing
+runs/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+
+# API keys / secrets
+.env
+.env.local
+SECRETS.md
+courses.yaml
+
+# Private overlays
+_private/
+
+# Browser / Canvas auth
+.cookies/
+
+# Student-supplied materials
+sources/*
+!sources/README.md
+
+# Output folders
+runs/
+final_drafts/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build output
+build/
+dist/
+*.egg-info/
